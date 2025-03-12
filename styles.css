@@ -108,3 +108,30 @@ table th {
     background-color: #333;
     color: white;
 }
+
+.player {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.player-info {
+    max-width: 600px;
+}
+
+.player-info h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.player-info p {
+    margin: 5px 0;
+}
