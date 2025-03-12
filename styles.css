@@ -79,12 +79,15 @@ footer {
     margin: 10px 0;
 }
 
-.footer-content a {
-    color: white;
-    text-decoration: none;
-    margin: 0 5px;
+.social-media {
+    margin-top: 10px;
 }
 
-.footer-content a:hover {
-    text-decoration: underline;
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
 }
