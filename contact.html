@@ -26,7 +26,26 @@
     <main>
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Contact information goes here.</p>
+            <p>If you have any questions or need more information, please feel free to contact us using the information below or the contact form at the bottom of the page.</p>
+            <div class="contact-info">
+                <p><strong>Address:</strong> Komorpur 8 No Ward, Mujibnagar, Meherpur, Bangladesh.</p>
+                <p><strong>Home Ground:</strong> Komorpur Home of Cricket Ground, Mujibnagar, Meherpur, Bangladesh.</p>
+                <p><strong>Captain:</strong> <a href="https://www.facebook.com/share/1BHqQ5chqo/?mibextid=wwXIfr"> Md Masum</a>: +8801887147847</p>
+                <p><strong>Club Director:</strong> <a href="https://www.facebook.com/share/1MUEcKUHvh/?mibextid=wwXIfr">Md Ariful Islam Milon</a>: +8801872824572</p>
+            </div>
+            <h3>Contact Us Form</h3>
+            <form action="submit_form.php" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
     <footer>
