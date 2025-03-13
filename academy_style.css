@@ -1,0 +1,93 @@
+/* Existing styles */
+/* ... (keep all your existing styles here) ... */
+
+/* Academy Page Styles */
+#academy-intro {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#academy-intro h1 {
+    color: #e52e71;
+}
+
+#academy-intro p {
+    color: #666;
+    line-height: 1.6;
+}
+
+#training-programs, #facilities, #coaches, #call-to-action {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#training-programs h2, #facilities h2, #coaches h2, #call-to-action h2 {
+    color: #333;
+}
+
+#training-programs .program, #coaches .coach {
+    margin-bottom: 20px;
+}
+
+#training-programs .program h3, #coaches .coach-info h3 {
+    color: #e52e71;
+}
+
+#training-programs .program p, #coaches .coach-info p, #facilities p, #call-to-action p {
+    color: #666;
+    line-height: 1.6;
+}
+
+#facilities ul {
+    padding-left: 20px;
+    color: #666;
+}
+
+#facilities ul li {
+    margin-bottom: 10px;
+}
+
+.coach {
+    display: flex;
+    align-items: center;
+}
+
+.coach-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid #e52e71;
+}
+
+.coach-info h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.coach-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e52e71;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff8a00;
+}
