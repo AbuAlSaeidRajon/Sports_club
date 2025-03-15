@@ -133,8 +133,21 @@ section {
     text-align: left;
 }
 
+/* Different colors for each row */
+.tournament-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Light grey */
+}
+
 .tournament-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #e6e6e6; /* Slightly darker grey */
+}
+
+.tournament-table tbody tr:nth-child(3n) {
+    background-color: #d9d9d9; /* Even darker grey */
+}
+
+.tournament-table tbody tr:nth-child(4n) {
+    background-color: #cccccc; /* Darker grey */
 }
 
 .tournament-table tbody tr:hover {
