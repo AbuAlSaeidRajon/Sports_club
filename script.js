@@ -47,5 +47,7 @@ function ratePlayer(playerName) {
 function updateRatingDisplay(playerName, ratingData) {
     const averageRating = (ratingData.totalRating / ratingData.ratingCount).toFixed(1);
     const ratingElement = document.getElementById(`rating-${playerName}`);
-    ratingElement.textContent = `${averageRating} (${ratingData.ratingCount} ratings)`;
+    const ratingCountElement = document.getElementById(`rating-count-${playerName}`);
+    ratingElement.textContent = averageRating;
+    ratingCountElement.textContent = ratingData.ratingCount;
 }
