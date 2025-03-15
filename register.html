@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register - কোমরপুর বিজয় নিশান ক্লাব Cricket Academy</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="register_styles.css">
     <link rel="stylesheet" href="header_styles.css">
+    <link rel="stylesheet" href="register_styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -39,8 +39,13 @@
         </div>
     </header>
     <main>
-        <section id="register">
-            <h1>Register for the কোমরপুর বিজয় নিশান ক্লাব Cricket Academy</h1>
+        <section id="register" class="hero-section">
+            <div class="hero-overlay">
+                <h1>Register for the কোমরপুর বিজয় নিশান ক্লাব Cricket Academy</h1>
+                <p>Join our academy and take your cricket skills to the next level. Fill out the form below to register.</p>
+            </div>
+        </section>
+        <section class="content-section">
             <form class="registration-form" action="/register" method="POST">
                 <div class="form-group">
                     <label for="full-name">Full Name</label>
@@ -91,7 +96,7 @@
                     <label for="referral">How did you hear about us?</label>
                     <input type="text" id="referral" name="referral">
                 </div>
-                <button type="submit">Submit Registration</button>
+                <button type="submit" class="cta-button">Submit Registration</button>
             </form>
         </section>
     </main>
