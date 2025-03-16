@@ -39,66 +39,68 @@
         </div>
     </header>
     <main>
-        <section id="squad">
+        <section id="squad" class="content-section">
             <h2>Our Squad</h2>
             <p>Meet the talented players of কোমরপুর বিজয় নিশান ক্লাব. Each player brings unique skills and dedication to the team, contributing to our success on and off the field.</p>
             <input type="text" id="searchInput" onkeyup="searchPlayers()" placeholder="Search for player names..." class="search-input">
-            <div class="player" data-name="Md Abu Al Saeid Rajon">
-                <img src="Photos/IMG_1542.jpg" alt="Player 3" class="player-img">
-                <div class="player-info">
-                    <h3>Md Abu Al Saeid Rajon</h3>
-                    <p><strong>Role:</strong> All-rounder</p>
-                    <p>Former Captain. A versatile player who excels in both batting and bowling as well as in fielding.</p>
-                    <p><strong>Contact:</strong> 01966778292</p>
-                    <p><strong>Rating:</strong> <span id="rating-Md Abu Al Saeid Rajon">0.0</span> (<span id="rating-count-Md Abu Al Saeid Rajon">0</span> ratings)</p>
-                    <button class="rate-button" onclick="ratePlayer('Md Abu Al Saeid Rajon')">Rate this player</button>
+            <div class="player-container">
+                <div class="player" data-name="Md Abu Al Saeid Rajon">
+                    <img src="Photos/IMG_1542.jpg" alt="Md Abu Al Saeid Rajon" class="player-img">
+                    <div class="player-info">
+                        <h3>Md Abu Al Saeid Rajon</h3>
+                        <p><strong>Role:</strong> All-rounder</p>
+                        <p>Former Captain. A versatile player who excels in both batting and bowling as well as in fielding.</p>
+                        <p><strong>Contact:</strong> 01966778292</p>
+                        <p><strong>Rating:</strong> <span id="rating-Md Abu Al Saeid Rajon">0.0</span> (<span id="rating-count-Md Abu Al Saeid Rajon">0</span> ratings)</p>
+                        <button class="rate-button" onclick="ratePlayer('Md Abu Al Saeid Rajon')">Rate this player</button>
+                    </div>
                 </div>
-            </div>
-            <div class="player" data-name="Md Ariful Islam Milon">
-                <img src="player1.jpg" alt="Player 1" class="player-img">
-                <div class="player-info">
-                    <h3>Md Ariful Islam Milon</h3>
-                    <p><strong>Role:</strong> Batsman</p>
-                    <p>Former Captain. A talented batsman known for his powerful strokes and consistent performance.</p>
-                    <p><strong>Contact:</strong> player1@example.com</p>
-                    <p><strong>Rating:</strong> <span id="rating-Md Ariful Islam Milon">0.0</span> (<span id="rating-count-Md Ariful Islam Milon">0</span> ratings)</p>
-                    <button class="rate-button" onclick="ratePlayer('Md Ariful Islam Milon')">Rate this player</button>
+                <div class="player" data-name="Md Ariful Islam Milon">
+                    <img src="Photos/player1.jpg" alt="Md Ariful Islam Milon" class="player-img">
+                    <div class="player-info">
+                        <h3>Md Ariful Islam Milon</h3>
+                        <p><strong>Role:</strong> Batsman</p>
+                        <p>Former Captain. A talented batsman known for his powerful strokes and consistent performance.</p>
+                        <p><strong>Contact:</strong> player1@example.com</p>
+                        <p><strong>Rating:</strong> <span id="rating-Md Ariful Islam Milon">0.0</span> (<span id="rating-count-Md Ariful Islam Milon">0</span> ratings)</p>
+                        <button class="rate-button" onclick="ratePlayer('Md Ariful Islam Milon')">Rate this player</button>
+                    </div>
                 </div>
-            </div>
-            <div class="player" data-name="Md Ariful Islam">
-                <img src="player2.jpg" alt="Player 2" class="player-img">
-                <div class="player-info">
-                    <h3>Md Ariful Islam</h3>
-                    <p><strong>Role:</strong> Bowler</p>
-                    <p>An exceptional bowler with a knack for taking crucial wickets.</p>
-                    <p><strong>Contact:</strong> player2@example.com</p>
-                    <p><strong>Rating:</strong> <span id="rating-Md Ariful Islam">0.0</span> (<span id="rating-count-Md Ariful Islam">0</span> ratings)</p>
-                    <button class="rate-button" onclick="ratePlayer('Md Ariful Islam')">Rate this player</button>
+                <div class="player" data-name="Md Ariful Islam">
+                    <img src="Photos/player2.jpg" alt="Md Ariful Islam" class="player-img">
+                    <div class="player-info">
+                        <h3>Md Ariful Islam</h3>
+                        <p><strong>Role:</strong> Bowler</p>
+                        <p>An exceptional bowler with a knack for taking crucial wickets.</p>
+                        <p><strong>Contact:</strong> player2@example.com</p>
+                        <p><strong>Rating:</strong> <span id="rating-Md Ariful Islam">0.0</span> (<span id="rating-count-Md Ariful Islam">0</span> ratings)</p>
+                        <button class="rate-button" onclick="ratePlayer('Md Ariful Islam')">Rate this player</button>
+                    </div>
                 </div>
-            </div>
-            <div class="player" data-name="Md Raju Ahamed">
-                <img src="player2.jpg" alt="Player 2" class="player-img">
-                <div class="player-info">
-                    <h3>Md Raju Ahamed</h3>
-                    <p><strong>Role:</strong> All-rounder</p>
-                    <p>Former Captain. A versatile player who excels in both batting and bowling.</p>
-                    <p><strong>Contact:</strong> player2@example.com</p>
-                    <p><strong>Rating:</strong> <span id="rating-Md Raju Ahamed">0.0</span> (<span id="rating-count-Md Raju Ahamed">0</span> ratings)</p>
-                    <button class="rate-button" onclick="ratePlayer('Md Raju Ahamed')">Rate this player</button>
+                <div class="player" data-name="Md Raju Ahamed">
+                    <img src="Photos/player3.jpg" alt="Md Raju Ahamed" class="player-img">
+                    <div class="player-info">
+                        <h3>Md Raju Ahamed</h3>
+                        <p><strong>Role:</strong> All-rounder</p>
+                        <p>Former Captain. A versatile player who excels in both batting and bowling.</p>
+                        <p><strong>Contact:</strong> player3@example.com</p>
+                        <p><strong>Rating:</strong> <span id="rating-Md Raju Ahamed">0.0</span> (<span id="rating-count-Md Raju Ahamed">0</span> ratings)</p>
+                        <button class="rate-button" onclick="ratePlayer('Md Raju Ahamed')">Rate this player</button>
+                    </div>
                 </div>
-            </div>
-            <div class="player" data-name="Md Sanwar Hossain Sentu">
-                <img src="player2.jpg" alt="Player 2" class="player-img">
-                <div class="player-info">
-                    <h3>Md Sanwar Hossain Sentu</h3>
-                    <p><strong>Role:</strong> Batsman</p>
-                    <p>An exceptional bowler with a knack for taking crucial wickets.</p>
-                    <p><strong>Contact:</strong> player2@example.com</p>
-                    <p><strong>Rating:</strong> <span id="rating-Md Sanwar Hossain Sentu">0.0</span> (<span id="rating-count-Md Sanwar Hossain Sentu">0</span> ratings)</p>
-                    <button class="rate-button" onclick="ratePlayer('Md Sanwar Hossain Sentu')">Rate this player</button>
+                <div class="player" data-name="Md Sanwar Hossain Sentu">
+                    <img src="Photos/player4.jpg" alt="Md Sanwar Hossain Sentu" class="player-img">
+                    <div class="player-info">
+                        <h3>Md Sanwar Hossain Sentu</h3>
+                        <p><strong>Role:</strong> Batsman</p>
+                        <p>An exceptional bowler with a knack for taking crucial wickets.</p>
+                        <p><strong>Contact:</strong> player4@example.com</p>
+                        <p><strong>Rating:</strong> <span id="rating-Md Sanwar Hossain Sentu">0.0</span> (<span id="rating-count-Md Sanwar Hossain Sentu">0</span> ratings)</p>
+                        <button class="rate-button" onclick="ratePlayer('Md Sanwar Hossain Sentu')">Rate this player</button>
+                    </div>
                 </div>
+                <!-- Add more players as needed -->
             </div>
-            <!-- Add more players as needed -->
         </section>
     </main>
     <footer>
